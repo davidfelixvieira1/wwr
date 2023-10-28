@@ -140,6 +140,13 @@ main section img {
   box-shadow: 5px 5px 10px #6f7364;
 }
 
+.msg h2 {
+  color: white;
+}
+
+.msg p {
+  color: white;
+}
 .logo {
   width: 80px;
 }
@@ -189,7 +196,7 @@ footer p a:hover {
   margin-top: 100px;
 }
 
-#home-grid {
+.home-grid {
   display: grid;
   grid-template-columns: repeat(10, 1fr); /* 10 colunas iguais */
   grid-gap: 20px; /* Espaço entre as imagens */
@@ -231,6 +238,10 @@ footer p a:hover {
 .card-img:hover {
   opacity: 0.6;
   transform: scale(1.1);
+}
+
+footer p {
+  color: white;
 }
 
 @media screen and (max-width: 900px) {
