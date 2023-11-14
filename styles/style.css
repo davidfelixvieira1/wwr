@@ -244,6 +244,42 @@ footer p {
   color: white;
 }
 
+/* this is the start of rivers page. */
+.rivers-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px; /* Add margin as needed */
+}
+
+.rivers-section {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px; /* Add margin between sections as needed */
+}
+
+.rivers-img {
+  flex: 0 0 30%; /* Adjust the width of the image section */
+  margin-right: 20px; /* Add margin between image and text */
+}
+
+.river-img {
+  width: 100%;
+  border: 4px solid steelblue;
+}
+
+.rivers-text {
+  flex: 1;
+}
+
+.rivers-section h2 {
+  color: steelblue;
+}
+.rivers-img h2 {
+  color: white;
+}
+
+
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
@@ -290,3 +326,4 @@ footer p {
     margin-top: 25px;
   }
 }
+
